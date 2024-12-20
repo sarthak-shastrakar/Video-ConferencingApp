@@ -1,0 +1,50 @@
+/* Responsive page */
+@media screen and (max-width: 768px) {
+  .landingPageContainer {
+    background-image: url("/public/homeimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .landingPageContainer nav {
+    padding: 1%;
+  }
+  .landingMainContainer h2 {
+    font-size: 20px;
+    text-align: center;
+    width: 100vw;
+    margin-top: 60px;
+  }
+  .landingMainContainer p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .scene {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navList li {
+    margin: 0px 5px 10px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+  }
+  
+}
+
+/* home page  */
+@media screen and (max-width: 600px) {
+  .meetContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftPanel h2{
+  margin-top: 25px;
+  font-family: cursive;
+  }
+  .rightPanel > img {
+    width: 100%;
+  }
+}

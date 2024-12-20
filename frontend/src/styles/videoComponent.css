@@ -1,0 +1,91 @@
+.meetVideoContainer {
+  position: relative;
+  height: 100vh;
+  background: rgb(1, 4, 48);
+}
+
+.meetUserVideo {
+  position: absolute;
+  bottom: 10vh;
+  height: 20vh;
+  width: auto;
+  left: 0;
+  border-radius: 20px;
+}
+
+.buttonContainers {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
+}
+
+.buttonContainers svg {
+  font-size: 3rem;
+}
+
+.conferenceView {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.conferenceView video {
+  width: 50vw;
+  height: 50vh;
+
+  border-radius: 10px;
+}
+.screen {
+  width: 60vh;
+}
+.chatRoom {
+  position: absolute;
+  height: 90vh;
+  right: 0;
+  background: rgba(42, 42, 84, 0.568);
+  border-radius: 10px;
+  padding-inline: 20px;
+  margin: 5px;
+}
+.chatContainer {
+  position: relative;
+  height: 100%;
+}
+.chatContainer h1 {
+  font-family: cursive;
+  border-radius: 5px;
+  color: rgb(9, 9, 9);
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+  margin: 0px 5px;
+}
+.Msg {
+  color: blue;
+  font-family: cursive;
+}
+.chattingArea {
+  display: flex;
+  border-radius: 5px;
+}
+.MessageField {
+  width: 22vw;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+
+.MSG-data {
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  font-weight: 700;
+  margin: auto;
+  width: fit-content;
+  margin: auto;
+}
+.chattingDisplay {
+  background-color: lightblue;
+  height: 70vh;
+  overflow-y: auto;
+  border-radius: 10px;
+}
