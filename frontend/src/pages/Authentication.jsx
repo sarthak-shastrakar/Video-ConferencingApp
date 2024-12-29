@@ -211,7 +211,6 @@ export default function Authentication() {
         open={open}
         autoHideDuration={4000}
         message={message}
-        style={{ fontColor: "white" }}
       />
     </div>
   );
